@@ -10,6 +10,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "aframe": "^1.4.2",
+    "aframe-transparent-video-shader": "^1.0.6",
+    "vite-plugin-mkcert": "^1.16.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },
@@ -18,6 +21,8 @@
     "@vitejs/plugin-vue": "^4.3.4",
     "@vue/eslint-config-prettier": "^8.0.0",
     "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^9.17.0",
     "prettier": "^3.0.3",
     "vite": "^4.4.9"
