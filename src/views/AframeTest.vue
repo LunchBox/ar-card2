@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import BtnEntry from './BtnEntry.vue'
 const message = ref('hello world')
 </script>
 <template>
@@ -101,7 +102,8 @@ const message = ref('hello world')
         animation__2="delay: 1250;"
       ></a-text>
     </a-entity>
-    <MyComponent></MyComponent>
+
+    <btn-entry text="this is item 1"></btn-entry>
 
     <a-camera position="0 0 0" look-controls="enabled: true"></a-camera>
   </a-scene>
